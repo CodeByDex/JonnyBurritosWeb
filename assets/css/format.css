@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/******************************************************
+Elements
+*******************************************************/
+header {
+    width: 100%;
+    height: 5rem;
+    padding: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    max-height: inherit;
+    width: inherit;
+}
+
+header div nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div nav ul li {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+main {
+    text-align: center;
+    margin: 2.5% 5%;
+}
+
+footer {
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+/*******************************************************
+Styles
+********************************************************/
+.header-box {
+    /* display: block; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*******************************************************
+IDs
+********************************************************/
+
+#Logo {
+    max-height: 100%;
+    max-width: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 80%;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#Site-Banner {
+    width: 100%;
+    text-align: center;
+}

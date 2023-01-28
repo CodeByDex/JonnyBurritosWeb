@@ -1,0 +1,44 @@
+/* Site Colors
+    #ff5b35
+    #24282b
+    #d9d8d6
+    #fbfbfb
+*/
+
+/*****************************************************
+Elements
+*****************************************************/
+* {
+    color: #24282b;
+    background-color: #d9d8d6;
+}
+
+header *,
+footer * {
+    color: inherit;
+    background-color: inherit;
+}
+
+article p {
+    background-color: #24282b;
+    color: #d9d8d6;
+    margin-bottom: 2rem;
+}
+
+/************************************************
+Classes
+*************************************************/
+
+.black-on-orange {
+    color: #24282b;
+    background-color: #ff5b35;
+}
+
+
+/************************************************
+IDs
+************************************************/
+
+#Logo {
+    border-color:#24282b;
+}

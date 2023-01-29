@@ -24,6 +24,10 @@ header div {
     width: inherit;
 }
 
+header div nav {
+    margin: 1.67em 0;
+}
+
 header div nav ul,
 header div nav {
     list-style: none;
@@ -32,6 +36,12 @@ header div nav {
     flex-direction: row;
     flex-wrap: wrap;
     max-height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.25rem;
 }
 
 main {

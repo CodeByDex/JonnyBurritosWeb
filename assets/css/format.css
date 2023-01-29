@@ -51,11 +51,11 @@ main {
     width: 90%
 }
 
-p {
+article p {
     padding: 2rem;
 }
 
-img {
+article img {
     max-width: 100%;
     max-height: 100%;
     margin: 2rem;

@@ -1,16 +1,18 @@
-/* Site Colors
-    #ff5b35
-    #24282b
-    #d9d8d6
-    #fbfbfb
-*/
+/************************************
+Variables
+************************************/
+:root {
+    --StarchyBlack: #24282b;
+    --StarchyOrange: #ff5b35;
+    --StarchyWhite: #d9d8d6;
+}
 
 /*****************************************************
 Elements
 *****************************************************/
 * {
-    color: #24282b;
-    background-color: #d9d8d6;
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyWhite);
 }
 
 header *,
@@ -20,14 +22,14 @@ footer * {
 }
 
 article p {
-    background-color: #24282b;
-    color: #d9d8d6;
+    background-color: var(--StarchyBlack);
+    color: var(--StarchyWhite);
     margin-bottom: 2rem;
 }
 
 input, button {
-    color: #24282b;
-    background-color: #d9d8d6;
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyWhite);
 }
 
 /************************************************
@@ -35,8 +37,8 @@ Classes
 *************************************************/
 
 .black-on-orange {
-    color: #24282b;
-    background-color: #ff5b35;
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyOrange);
 }
 
 
@@ -45,11 +47,11 @@ IDs
 ************************************************/
 
 #Logo {
-    border-color:#24282b;
+    border-color:var(--StarchyBlack);
 }
 
 
 #Site-Banner {
-    color: #24282b;
-    background-color: #d9d8d6;
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyWhite);
 }

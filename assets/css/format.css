@@ -23,6 +23,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: fixed;
+
 }
 
 header div {
@@ -31,7 +32,7 @@ header div {
 }
 
 header div nav {
-    margin: 1.67em 0;
+    margin: auto 0;
 }
 
 header div nav ul,
@@ -86,7 +87,9 @@ footer {
 /*******************************************************
 Styles
 ********************************************************/
-
+.header-box {
+    margin: auto 0;
+}
 
 /*******************************************************
 IDs
@@ -107,4 +110,13 @@ IDs
     width: 100%;
     text-align: center;
     max-height: var(--var-Banner-Height);
+}
+
+/******************************************************
+Media Queries
+*******************************************************/
+@media screen and (width < 500px) {
+    h1 {
+        display: none;
+    }
 }

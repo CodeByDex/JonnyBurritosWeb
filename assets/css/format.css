@@ -7,7 +7,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width: 100%;
+    /* max-width: 100%; */
     max-height: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -23,7 +23,6 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     position: fixed;
-
 }
 
 header div {
@@ -66,14 +65,20 @@ main {
     width: 90%
 }
 
-article p {
+article {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+article section {
     padding: 2rem;
 }
 
-article img {
+article section img {
     max-width: 100%;
-    max-height: 100%;
-    margin: 2rem;
 }
 
 footer {
@@ -82,6 +87,14 @@ footer {
     bottom: 0%;
     width: 100%;
     text-align: center;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+p:last-of-type {
+    margin-bottom: 0rem;
 }
 
 /*******************************************************
@@ -118,5 +131,9 @@ Media Queries
 @media screen and (width < 500px) {
     h1 {
         display: none;
+    }
+
+    article  {
+        flex-direction: column;
     }
 }

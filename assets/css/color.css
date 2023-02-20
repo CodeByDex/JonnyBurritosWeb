@@ -21,10 +21,20 @@ footer * {
     background-color: inherit;
 }
 
-article p {
+article {
     background-color: var(--StarchyBlack);
     color: var(--StarchyWhite);
     margin-bottom: 2rem;
+}
+
+article section {
+    background-color: inherit;
+    color: inherit;
+}
+
+p {
+    color: inherit;
+    background-color: inherit;
 }
 
 input, button {

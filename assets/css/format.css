@@ -7,7 +7,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* max-width: 100%; */
+    max-width: 100%;
     max-height: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -103,6 +103,9 @@ Styles
 .header-box {
     margin: auto 0;
 }
+.headMobile {
+    display: none;
+}
 
 /*******************************************************
 IDs
@@ -128,9 +131,13 @@ IDs
 /******************************************************
 Media Queries
 *******************************************************/
-@media screen and (width < 500px) {
-    h1 {
+@media screen and (width < 600px) {
+    .headFull {
         display: none;
+    }
+
+    .headMobile {
+        display: inherit;
     }
 
     article  {

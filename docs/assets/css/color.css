@@ -1,0 +1,67 @@
+/************************************
+Variables
+************************************/
+:root {
+    --StarchyBlack: #24282b;
+    --StarchyOrange: #ff5b35;
+    --StarchyWhite: #d9d8d6;
+}
+
+/*****************************************************
+Elements
+*****************************************************/
+* {
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyWhite);
+}
+
+header *,
+footer * {
+    color: inherit;
+    background-color: inherit;
+}
+
+article {
+    background-color: var(--StarchyBlack);
+    color: var(--StarchyWhite);
+    margin-bottom: 2rem;
+}
+
+article section {
+    background-color: inherit;
+    color: inherit;
+}
+
+p {
+    color: inherit;
+    background-color: inherit;
+}
+
+input, button {
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyWhite);
+}
+
+/************************************************
+Classes
+*************************************************/
+
+.black-on-orange {
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyOrange);
+}
+
+
+/************************************************
+IDs
+************************************************/
+
+#Logo {
+    border-color:var(--StarchyBlack);
+}
+
+
+#Site-Banner {
+    color: var(--StarchyBlack);
+    background-color: var(--StarchyWhite);
+}

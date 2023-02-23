@@ -40,8 +40,10 @@ header div nav {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-height: 100%;
+    white-space: nowrap;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -137,6 +139,12 @@ IDs
 Media Queries
 *******************************************************/
 @media screen and (width < 600px) {
+    
+header div nav ul,
+header div nav {
+        flex-direction: column;
+    }
+
     .headFull {
         display: none;
     }

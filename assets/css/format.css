@@ -79,6 +79,7 @@ article section {
 
 article section img {
     max-width: 100%;
+    min-width: 150px; 
 }
 
 footer {

@@ -18,21 +18,22 @@
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/color.css">
         <link rel="stylesheet" href="./assets/css/format.css">
+        <link rel="stylesheet" href="./assets/css/accessibility.css">
     </head>
     <body>
         <header class="black-on-orange">
             <h2 id="Site-Banner">This is a demo site</h2>
             <div>
-                <img id="Logo" src="./assets/images/starchy.jpg" alt="Mascot Photo"/>
+                <img id="Logo" src="./assets/images/starchy.jpg" alt="Mascot Photo" role="button" tabindex="0"/>
                 <h1 class="headFull">Jonny Burritos</h1>
                 <h1 class="headMobile">JB</h1>
             </div>
             <div class="header-box">
                 <nav>
-                    <ul >
-                        <li><a href="https://www.facebook.com/jonnyburritos" target="_blank">Social</a></li>
-                        <li><a id="BTN-About" >About Us</a></li>
-                        <li><a href="https://streetfoodfinder.com/jonnyburritos" target="_blank">Schedule</a></li>
+                    <ul>
+                        <li role="button"><a href="https://www.facebook.com/jonnyburritos" target="_blank">Social</a></li>
+                        <li role="button"tabindex="0"><a id="BTN-About" >About Us</a></li>
+                        <li role="button"><a href="https://streetfoodfinder.com/jonnyburritos" target="_blank">Schedule</a></li>
                     </ul>
                 </nav>
             </div>
